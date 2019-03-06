@@ -3,6 +3,7 @@
 <form action="/teams" method="post">
   <label for="team_name">Team Name:</label>
   <input type="text" id="team_name" name="team[name]"><br>
+
   <label for="team_motto">Team Motto:</label>
   <input type="text" id= "team_motto" name="team[motto]">
 
@@ -18,8 +19,13 @@
 
 <h2>Hero2</h2>
 
-  <input type="text" id="member2_name" name="team[heroes][][name]">
+  <label for="member2_name">Hero's Name:</label>
+  <input type="text" id="member2_name" name="team[heroes][][name]"><br>
+
+  <label for="member2_power">Hero's Power:</label>
   <input type="text" id="member2_power" name="team[heroes][][power]">
+
+  <label for="member2_bio">Hero's Bio:</label>
   <input type="text" id= "member2_bio" name="team[heroes][][bio]">
 
 
